@@ -13,13 +13,12 @@
         padding: 20px 20px;
         height: 400px;
         font-family: Arial, Helvetica, sans-serif;
-     
-        
-    
     }
+
     select[id=city]{
-        padding: 1px 44px;
+        padding: 1px 34px;
     }
+    
     input[id="birthDate"]{
         padding: 1px 44px;
     }
@@ -44,10 +43,7 @@
         padding: 10px 11px;
     }
     
-    
-       
-       
-   
+
     
 </style>
 <body>
@@ -61,7 +57,8 @@
             <td rowspan="3">
                 <input type="checkbox" name="football" id="football">Football <br>
                 <input type="checkbox" name="volleyball" id="volleyball">Volleyball <br>
-                <input type="checkbox" name="basketball" id="basketball">Basketball</td>
+                <input type="checkbox" name="basketball" id="basketball">Basketball
+            </td>
         </tr>
         <tr></tr>
         <tr>
@@ -83,8 +80,9 @@
         <tr>
             <td><label for="city">City</label></td>
             <td >
-                <select name="city" id="city" required>
-                        <option value="" ></option>
+                <select name="city" id="city" required >
+                        <option value="">Please select</option>
+                        <option value="">------------------</option>
                         <option value="1">Berlin</option>
                         <option value="2">Hamburg</option>
                         <option value="3">Frankfurt</option>
