@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+
+
+        .container{
+            background-color: beige;
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            flex-direction:column;
+            flex-wrap: wrap;
+            
+            /*
+                justify-content: Horizontal (X) Axis'te siralama gerceklestirir.
+                    flex-start: Container'in baslangicindan baslanmasi.
+                    center: Container'in merkezine tasir.
+                    space-between: element'ler, container'in sol, orta ve sag kismina dengeli bir sekilde dagitilir.
+
+                align-items: Vertical (Y) Axis'inde siralama gerceklestirir.
+
+                flex-direction: Dizilim Yonleri
+                    row: Varsayilan deger, satir anlamina gelir.
+                    column: Kolon dizilimine gecirir.
+                    row-reverse: Satirin dizilimini tersten gerceklestirir.
+                    column-reverse: Kolon dizilimini tersten gerceklestirir.
+
+                flex-wrap: element'lerin birden fazla satira yayilabilmesi
+                    nowrap: Varsayilan deger, element'ler tek bir satirda dizilir.
+                    wrap: element'ler, tek bir satira sigamiyorlar ise, alt satira tasabilirler.
+                    wrap-reverse: element'ler, tek bir satira sigamiyorlar ise, alt satira tasabilirler. VE tersten siralanirlar.
+                
+                align-content: Container icerisinde ek bir bosluk kalmis ise kullanilir.
+
+            */
+        
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+       <div class="item">Item 1</div>
+       <div class="item">Item 2</div>
+       <div class="item">Item 3</div>
+    </div>
+    
+</body>
+</html>
